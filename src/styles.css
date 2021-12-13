@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+  background-color: #bdbdbd;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.searchIcon {
+  position: absolute;
+  padding: 12px;
+  right: 5%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.searchBar {
+  height: 40px;
+  width: 90%;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.cardContainer {
+  padding: 2px 16px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  border: none;
+  color: white;
+  padding: 20px;
+  height: 36px;
+  width: 128px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.removeButton {
+  background-color: #ef5350;
+  float: right;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 32px;
+  font-size: 16px;
+  line-height: 32px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  margin-right: 16px;
+}
+
+.removeIcon {
+  margin-right: 10px;
+}
+
+.noResults {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  caret-color: rgba(0, 0, 0, 0);
+}
