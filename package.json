@@ -1,6 +1,7 @@
 {
   "name": "designeng-react-assignment",
   "version": "1.0.0",
+  "homepage": ".",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
@@ -23,5 +24,10 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
